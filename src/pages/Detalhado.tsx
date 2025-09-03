@@ -21,8 +21,8 @@ export default function DetalheBeneficiario() {
   };
 
   return (
-    <Container maxWidth="xl">
-      <Box sx={{ mt: 2, mb: 4}}>
+    <Container maxWidth="lg">
+      <Box sx={{ mt: 2, mb: 4 }}>
         <Button
           variant="outlined"
           startIcon={<ArrowBackIcon />}
@@ -66,7 +66,6 @@ export default function DetalheBeneficiario() {
             </Grid>
           </Grid>
         </Paper>
-        <Protocols />
       </Box>
     </Container>
   );
